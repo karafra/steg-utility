@@ -2,3 +2,7 @@ env/
 env/*
 __pycache__/
 __pychace__/*
+*.png
+*.webp
+*.jpg
+*.jpeg
