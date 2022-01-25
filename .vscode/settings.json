@@ -1,18 +1,27 @@
 {
   "cSpell.words": [
+    "bdist",
+    "carryforward",
+    "codecov",
+    "haha",
     "imread",
     "imwrite",
     "karafra",
     "ndarray",
     "pdoc",
-    "steganography"
+    "PYPI",
+    "sdist",
+    "setuptools",
+    "steg",
+    "steganography",
+    "unitttest"
   ],
   "python.testing.unittestArgs": [
     "-v",
     "-s",
-    "./tests",
+    "./test/unit",
     "-p",
-    "*test*.py"
+    "Test*.py"
   ],
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true,
