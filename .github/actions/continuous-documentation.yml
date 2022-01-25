@@ -3,7 +3,7 @@ name: "Documentation auto generation"
 on:
   push:
     branches: [ master ]
-    paths: [ '**.java' ]
+    paths: [ '**.py' ]
 
 jobs:
   api-website:
