@@ -24,6 +24,7 @@
 [![MIT License][license-shield]][license-url]
 [![Codecov branch][codecov-shield]][codecov-url]
 [![PyPI - Wheel][pypi-shield]][pypi-url]
+[![build-status][documentation-generation-shield]][documentation-generation-url]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -203,3 +204,5 @@ Project Link: [https://github.com/karafra/steg-utility](https://github.com/karaf
 [codecov-url]: https://app.codecov.io/gh/karafra/steg-utility/
 [pypi-shield]: https://img.shields.io/pypi/wheel/simple-steganography?style=for-the-badge
 [pypi-url]: a
+[documentation-generation-shield]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fkarafra%2Fsteg-utility%2Fbadge%3Fref%3Dmaster&style=for-the-badge
+[documentation-generation-url]: https://github.com/karafra/steg-utility/actions/workflows/continuous-documentation.yml
