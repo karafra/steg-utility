@@ -22,9 +22,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
-
-
+[![Codecov branch][codecov-shield]][codecov-url]
+[![PyPI - Wheel][pypi-shield]][pypi-url]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -200,3 +199,7 @@ Project Link: [https://github.com/karafra/steg-utility](https://github.com/karaf
 [license-url]: https://github.com/karafra/steg-utility/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [product-screenshot]: images/screenshot.png
+[codecov-shield]: https://img.shields.io/codecov/c/gh/karafra/steg-utility/main?style=for-the-badge&token=20T7e2SGUw
+[codecov-url]: https://app.codecov.io/gh/karafra/steg-utility/
+[pypi-shield]: https://img.shields.io/pypi/wheel/simple-steganography?style=for-the-badge
+[pypi-url]: a
