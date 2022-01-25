@@ -1,0 +1,17 @@
+# Config for coverage.py
+[run]
+branch = True
+
+[paths]
+  source = src/
+
+[coverage:run]
+  omit = test/*
+    **/__init__.py
+    src/types/*
+
+[xml]
+  output = coverage/coverage.xml
+
+[html]
+  directory = coverage/
