@@ -1,3 +1,6 @@
+name: "Unit tests"
+
+on: push
 jobs:
   test:
     runs-on: ubuntu-latest
