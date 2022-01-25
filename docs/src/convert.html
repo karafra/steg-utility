@@ -53,12 +53,14 @@ Author: Karafra
 
 # region Imports
 import logging
+
 import cv2
 
 from src.decorators.notNone import NotNone
 from src.types.ColorComponents import RGB
 from src.utilities.binary import message2binary
 from src.utilities.stegUtils import verify_payload
+
 # endregion 
 
 # region Constants
@@ -108,6 +110,7 @@ def encode(input_path: any, payload: str, output_path: str, terminator: str = &#
                 bit_encoded[component.value][:-1] + bit,
                 2
               )
+
 
 @NotNone()
 def decode(input_path: any, terminator: str = &#34;#####&#34;) -&gt; None:
