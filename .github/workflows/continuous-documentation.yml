@@ -18,6 +18,7 @@ jobs:
         python-version: 3.8.10
         cache: 'pip'
         cache-dependency-path: 'requirements.txt'
+    - name: Install dependencies
       run: pip install -r requirements.txt
     - name: Build docs with pdoc
       run: pdoc --html src --force --output-dir docs
