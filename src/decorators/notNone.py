@@ -54,11 +54,11 @@ def NotNone(*names):
         if not arg:
           LOGGER.error("Non keyword arguments can not be null")
           raise ValueError("Non keyword arguments can not be null")
-        if names:
-          for name in names:
-            if not kwargs.get(name):
-              LOGGER.error(f"Argument `{name}` can not be None")
-              raise ValueError(f"Argument `{name}` can not be None")
+      if names:
+        for name in names:
+          if not kwargs.get(name):
+            LOGGER.error(f"Argument `{name}` can not be None")
+            raise ValueError(f"Argument `{name}` can not be None")
       return function(*args, **kwargs)
     return __notNone
   return _notNone
