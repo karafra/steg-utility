@@ -28,6 +28,6 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-          files: ./coverage/coverage.xml # optional
+          files: coverage/coverage.xml # optional
           fail_ci_if_error: true 
           verbose: true
