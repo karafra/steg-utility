@@ -6,3 +6,14 @@ __pychace__/*
 *.webp
 *.jpg
 *.jpeg
+htmlcov/*
+.coverage
+coverage.xml
+coverage/*
+coverage/
+dist/
+dist/*
+build/
+build/*
+src/simple_steganography.egg-info
+src/simple_steganography.egg-info/*
