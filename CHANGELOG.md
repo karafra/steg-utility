@@ -1,4 +1,10 @@
-# Pretty library change log
+# Simple steganography changelog
+
+## 1.0.2 -- 26th January, 2022
+
+* Removed duplicate code in favour of import :recycle: 
+* Added runner for running from repository ([main.py](main.py))
+* Fixed [README.md](README.md) header :zap:
 
 ## 1.0.1 -- 26th January, 2022
 
