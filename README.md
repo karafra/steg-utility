@@ -203,6 +203,6 @@ Project Link: [https://github.com/karafra/steg-utility](https://github.com/karaf
 [codecov-shield]: https://img.shields.io/codecov/c/gh/karafra/steg-utility/main?style=for-the-badge&token=20T7e2SGUw
 [codecov-url]: https://app.codecov.io/gh/karafra/steg-utility/
 [pypi-shield]: https://img.shields.io/pypi/wheel/simple-steganography?style=for-the-badge
-[pypi-url]: a
+[pypi-url]: https://pypi.org/project/simple-steganography/
 [documentation-generation-shield]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fkarafra%2Fsteg-utility%2Fbadge%3Fref%3Dmaster&style=for-the-badge
 [documentation-generation-url]: https://github.com/karafra/steg-utility/actions/workflows/continuous-documentation.yml
