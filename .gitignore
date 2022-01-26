@@ -19,3 +19,4 @@ build/*
 /simple_steganography.egg-info/*
 .eggs/
 .eggs/*
+*.pyc
