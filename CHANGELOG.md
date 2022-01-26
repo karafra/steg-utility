@@ -1,7 +1,7 @@
 # Simple steganography changelog
 
 
-## 1.0.2 -- 27th January, 2022
+## 1.0.2.1 -- 27th January, 2022
 
 * Fixed missing schema in documentation link in [README.md](README.md) :zap:
 
