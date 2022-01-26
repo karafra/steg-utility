@@ -52,14 +52,6 @@ SecretStorage==3.3.1
 simple-parsing==0.0.17
 six==1.16.0
 snowballstemmer==2.2.0
-Sphinx==4.4.0
-sphinx-rtd-theme==1.0.0
-sphinxcontrib-applehelp==1.0.2
-sphinxcontrib-devhelp==1.0.2
-sphinxcontrib-htmlhelp==2.0.0
-sphinxcontrib-jsmath==1.0.1
-sphinxcontrib-qthelp==1.0.3
-sphinxcontrib-serializinghtml==1.1.5
 termcolor==1.1.0
 toml==0.10.2
 tqdm==4.62.3
