@@ -15,5 +15,7 @@ dist/
 dist/*
 build/
 build/*
-src/simple_steganography.egg-info
-src/simple_steganography.egg-info/*
+/simple_steganography.egg-info
+/simple_steganography.egg-info/*
+.eggs/
+.eggs/*
