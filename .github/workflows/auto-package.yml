@@ -25,4 +25,4 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
         run: |
           python setup.py sdist bdist_wheel
-          twine upload --repository pypi dist/*.tar.gz
+          twine upload --skip-existing --repository pypi dist/*.tar.gz 
