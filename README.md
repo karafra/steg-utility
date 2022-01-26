@@ -126,11 +126,11 @@ CLI supports two modes (encode/decode).
 
 Encode:
 ```sh
-  steganography.py -m decode -i output.png
+  steganography -m decode -i output.png
 ```
 Decode:
 ```sh
-steganography.py -m encode  -i input.png -o output.png -p "Super secret message"
+steganography -m encode  -i input.png -o output.png -p "Super secret message"
 ```
 
 _For more examples, please refer to the [Documentation](https://karafra.github.io/steg-utility/)_
