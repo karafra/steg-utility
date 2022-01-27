@@ -16,6 +16,7 @@ Author: Karafra
 
 # region Imports
 import logging
+from typing import Optional
 
 import cv2
 
@@ -32,7 +33,7 @@ LOGGER = logging.getLogger(__name__)
 
 # region Logic
 @NotNone()
-def encode(input_path: any, payload: str, output_path: str, terminator: str = "#####") -> None:
+def encode(input_path: any, payload: str, output_path: str, terminator: str = "#####") -> str:
     """
     ------
     Encode
@@ -51,6 +52,10 @@ def encode(input_path: any, payload: str, output_path: str, terminator: str = "#
       path to output file
     terminator: str (optional)
       terminator of message
+    --------
+    Returns:
+      path to output file
+    --------
     """
     # Check is payload can fit into image
     img = cv2.imread(input_path)
@@ -67,7 +72,8 @@ def encode(input_path: any, payload: str, output_path: str, terminator: str = "#
             for component in list(RGB):
               if not payload_finalized:
                 cv2.imwrite(output_path, img)
-                return LOGGER.info(f"Saved as {output_path}")
+                LOGGER.info(f"Saved as {output_path}")
+                return output_path
               bit = payload_finalized.pop(0)
               pixel[component.value] = int(
                 bit_encoded[component.value][:-1] + bit,
@@ -76,7 +82,7 @@ def encode(input_path: any, payload: str, output_path: str, terminator: str = "#
 
 
 @NotNone()
-def decode(input_path: any, terminator: str = "#####") -> None:
+def decode(input_path: any, terminator: str = "#####") -> Optional[str]:
   """
   -------------
   Decodes image
@@ -91,6 +97,10 @@ def decode(input_path: any, terminator: str = "#####") -> None:
     image object to check for information
   teminator: str
     terminator of message
+  --------
+  Returns:
+  --------
+    Encoded message
   """
   img = cv2.imread(input_path)
   retrieved_data = ""
@@ -110,4 +120,10 @@ def decode(input_path: any, terminator: str = "#####") -> None:
       if decoded_data[-5:] == terminator:
           break
   logging.info(f"Encoded data : {decoded_data[:-5]}")
+  try:
+    return decoded_data[:-5]
+  except IndexError as err:
+    LOGGER.error(str(err))
+    return ""
+ 
 # endregion
