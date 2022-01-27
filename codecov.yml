@@ -21,7 +21,7 @@ flag_management:
   individual_flags:
     - name: unitttest
       paths:
-        - src/
+        - simple_steganography./
       carryforward: true
       statuses:
         - name_prefix: proj-

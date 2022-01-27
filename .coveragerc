@@ -3,12 +3,12 @@
 branch = True
 
 [paths]
-  source = src/
+  source = simple_steganography/
 
 [coverage:run]
   omit = test/*
     **/__init__.py
-    src/types/*
+    simple_steganography./types/*
 
 [xml]
   output = coverage/coverage.xml
