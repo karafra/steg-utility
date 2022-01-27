@@ -54,9 +54,9 @@ class Test_encode(unittest.TestCase):
       # Then
       self.assertEqual(str(exception), "Non keyword arguments can not be null")
   
-  @patch("src.convert.cv2.imwrite")
-  @patch("src.convert.verify_payload", autospec=True)
-  @patch("src.convert.cv2.imread")
+  @patch("simple_steganography.convert.cv2.imwrite")
+  @patch("simple_steganography.convert.verify_payload", autospec=True)
+  @patch("simple_steganography.convert.cv2.imread")
   def test_should_encrypt_message(self, mock_imread: MagicMock, mock_verify_payload: Mock, mock_imwrite: MagicMock):
     """Should encrypt message"""
     # Given
@@ -77,9 +77,9 @@ class Test_encode(unittest.TestCase):
     mock_imread.assert_called_once_with(input_path)
     mock_imwrite.assert_called_once_with(output_path, img)
   
-  @patch("src.convert.cv2.imwrite")
-  @patch("src.convert.verify_payload", autospec=True)
-  @patch("src.convert.cv2.imread")
+  @patch("simple_steganography.convert.cv2.imwrite")
+  @patch("simple_steganography.convert.verify_payload", autospec=True)
+  @patch("simple_steganography.convert.cv2.imread")
   def test_should_decrypt_message(self, mock_imread: MagicMock, mock_verify_payload: Mock, mock_imwrite: MagicMock):
     """Should decrypt message"""
     # Given
