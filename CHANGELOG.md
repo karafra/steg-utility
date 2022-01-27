@@ -1,5 +1,12 @@
 # Simple steganography changelog
 
+## 1.0.3 -- 27th January, 2022
+
+* `encode` and `decode` functions now return values :zap:
+* Package is now not imported from `src` dir but `simple_steganography` :package:
+* Added properties to PyPi package :package:
+* 
+
 
 ## 1.0.2.1 -- 27th January, 2022
 
