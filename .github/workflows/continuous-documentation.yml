@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
     - name: Build docs with pdoc
-      run: pdoc --html src --force --output-dir docs
+      run: pdoc --html simple_steganography --force --output-dir docs
 
     - name: Commit documentation changes
       run: |
