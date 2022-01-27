@@ -3,7 +3,7 @@ from mockito import mock
 
 import numpy as np
 
-from src.utilities.binary import message2binary
+from simple_steganography.utilities.binary import message2binary
 
 
 class Test_message2binary(unittest.TestCase):

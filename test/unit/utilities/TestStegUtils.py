@@ -2,7 +2,7 @@ import unittest
 
 from mockito import mock, when
 
-from src.utilities.stegUtils import verify_payload
+from simple_steganography.utilities.stegUtils import verify_payload
 
 
 class Test_verify_payload(unittest.TestCase):

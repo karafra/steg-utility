@@ -9,8 +9,8 @@ from cv2 import imread
 from mockito import mock, when
 import numpy as np
 
-from src.convert import decode, encode
-from src.utilities.stegUtils import verify_payload
+from simple_steganography.convert import decode, encode
+from simple_steganography.utilities.stegUtils import verify_payload
 
 
 class Test_encode(unittest.TestCase):

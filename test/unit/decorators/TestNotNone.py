@@ -1,7 +1,7 @@
 import unittest
 from mockito import mock, verify, when
 
-from src.decorators.notNone import NotNone
+from simple_steganography.decorators.notNone import NotNone
 
 
 class Test_NotNone(unittest.TestCase):
