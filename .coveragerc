@@ -8,7 +8,7 @@ branch = True
 [coverage:run]
   omit = test/*
     **/__init__.py
-    simple_steganography./types/*
+    simple_steganography/types/*
 
 [xml]
   output = coverage/coverage.xml
