@@ -27,7 +27,7 @@ MarkupSafe==2.1.1
 mockito==1.3.0
 MutPy-Pynguin==0.7.1
 mypy-extensions==0.4.3
-networkx==2.7.1
+networkx==2.8
 numpy==1.22.3
 opencv-python==4.5.5.64
 ordered-set==4.1.0
