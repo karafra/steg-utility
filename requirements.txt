@@ -48,7 +48,7 @@ requests==2.27.1
 requests-toolbelt==0.9.1
 rfc3986==2.0.0
 rich==12.3.0
-SecretStorage==3.3.1
+SecretStorage==3.3.2
 simple-parsing==0.0.19.post1
 six==1.16.0
 snowballstemmer==2.2.0
