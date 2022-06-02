@@ -55,7 +55,7 @@ snowballstemmer==2.2.0
 termcolor==1.1.0
 toml==0.10.2
 tqdm==4.64.0
-twine==4.0.0
+twine==4.0.1
 typing-extensions==4.2.0
 typing-inspect==0.7.1
 urllib3==1.26.9
