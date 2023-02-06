@@ -33,7 +33,7 @@ opencv-python==4.7.0.68
 ordered-set==4.1.0
 packaging==23.0
 pdoc3==0.10.0
-pkginfo==1.9.4
+pkginfo==1.9.6
 pluggy==1.0.0
 py==1.11.0
 pycparser==2.21
