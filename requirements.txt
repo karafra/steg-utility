@@ -54,7 +54,7 @@ six==1.16.0
 snowballstemmer==2.2.0
 termcolor==2.2.0
 toml==0.10.2
-tqdm==4.64.1
+tqdm==4.65.0
 twine==4.0.2
 typing-extensions==4.5.0
 typing-inspect==0.8.0
