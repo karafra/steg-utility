@@ -4,7 +4,7 @@ astor==0.8.1
 attrs==23.1.0
 Babel==2.12.1
 bleach==6.0.0
-bytecode==0.14.1
+bytecode==0.14.2
 certifi==2023.5.7
 cffi==1.15.1
 charset-normalizer==3.1.0
