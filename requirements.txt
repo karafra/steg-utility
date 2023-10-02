@@ -31,7 +31,7 @@ networkx==3.1
 numpy==1.26.0
 opencv-python==4.8.1.78
 ordered-set==4.1.0
-packaging==23.1
+packaging==23.2
 pdoc3==0.10.0
 pkginfo==1.9.6
 pluggy==1.3.0
