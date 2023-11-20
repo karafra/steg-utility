@@ -5,7 +5,7 @@ attrs==23.1.0
 Babel==2.13.1
 bleach==6.1.0
 bytecode==0.15.1
-certifi==2023.7.22
+certifi==2023.11.17
 cffi==1.16.0
 charset-normalizer==3.3.1
 colorama==0.4.6
