@@ -7,7 +7,7 @@ bleach==6.1.0
 bytecode==0.15.1
 certifi==2023.11.17
 cffi==1.16.0
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
 colorama==0.4.6
 commonmark==0.9.1
 coverage==7.3.2
