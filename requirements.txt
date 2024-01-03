@@ -29,7 +29,7 @@ MutPy-Pynguin==0.7.1
 mypy-extensions==1.0.0
 networkx==3.2.1
 numpy==1.26.3
-opencv-python==4.8.1.78
+opencv-python==4.9.0.80
 ordered-set==4.1.0
 packaging==23.2
 pdoc3==0.10.0
