@@ -11,7 +11,7 @@ charset-normalizer==3.3.2
 colorama==0.4.6
 commonmark==0.9.1
 coverage==7.5.3
-cryptography==42.0.7
+cryptography==42.0.8
 docutils==0.21.2
 idna==3.7
 imagesize==1.4.1
