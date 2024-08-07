@@ -6,7 +6,7 @@ Babel==2.14.0
 bleach==6.1.0
 bytecode==0.15.1
 certifi==2024.7.4
-cffi==1.16.0
+cffi==1.17.0
 charset-normalizer==3.3.2
 colorama==0.4.6
 commonmark==0.9.1
