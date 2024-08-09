@@ -2,7 +2,7 @@ alabaster==1.0.0
 astmonkey==0.3.6
 astor==0.8.1
 attrs==24.1.0
-Babel==2.14.0
+Babel==2.16.0
 bleach==6.1.0
 bytecode==0.15.1
 certifi==2024.7.4
