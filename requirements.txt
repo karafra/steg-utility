@@ -52,7 +52,7 @@ SecretStorage==3.3.3
 simple-parsing==0.1.6
 six==1.16.0
 snowballstemmer==2.2.0
-termcolor==2.4.0
+termcolor==2.5.0
 toml==0.10.2
 tqdm==4.66.5
 twine==5.1.1
