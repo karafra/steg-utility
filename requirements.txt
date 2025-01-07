@@ -38,7 +38,7 @@ pluggy==1.5.0
 py==1.11.0
 pycparser==2.22
 pydot==3.0.4
-Pygments==2.19.0
+Pygments==2.19.1
 pyparsing==3.2.1
 pytest==8.3.4
 pytz==2024.2
