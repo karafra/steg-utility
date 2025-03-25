@@ -39,7 +39,7 @@ py==1.11.0
 pycparser==2.22
 pydot==3.0.4
 Pygments==2.19.1
-pyparsing==3.2.2
+pyparsing==3.2.3
 pytest==8.3.5
 pytz==2024.2
 PyYAML==6.0.2
