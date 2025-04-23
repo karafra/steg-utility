@@ -26,7 +26,7 @@ Markdown==3.8
 MarkupSafe==3.0.2
 mockito==1.5.4
 MutPy-Pynguin==0.7.1
-mypy-extensions==1.0.0
+mypy-extensions==1.1.0
 networkx==3.4.2
 numpy==2.2.4
 opencv-python==4.11.0.86
