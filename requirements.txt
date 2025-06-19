@@ -58,7 +58,7 @@ tqdm==4.67.1
 twine==6.0.1
 typing-extensions==4.14.0
 typing-inspect==0.9.0
-urllib3==2.4.0
+urllib3==2.5.0
 webencodings==0.5.1
 yapf==0.43.0
 zipp==3.23.0
