@@ -10,7 +10,7 @@ cffi==1.17.0
 charset-normalizer==3.4.3
 colorama==0.4.6
 commonmark==0.9.1
-coverage==7.10.4
+coverage==7.10.5
 cryptography==45.0.6
 docutils==0.22
 idna==3.10
