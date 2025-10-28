@@ -3,7 +3,7 @@ astmonkey==0.3.6
 astor==0.8.1
 attrs==25.4.0
 Babel==2.17.0
-bleach==6.2.0
+bleach==6.3.0
 bytecode==0.17.0
 certifi==2025.10.5
 cffi==2.0.0
