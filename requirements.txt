@@ -12,7 +12,7 @@ colorama==0.4.6
 commonmark==0.9.1
 coverage==7.13.0
 cryptography==46.0.3
-docutils==0.22.3
+docutils==0.22.4
 idna==3.11
 imagesize==1.4.1
 importlib-metadata==8.7.0
