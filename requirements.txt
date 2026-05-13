@@ -13,7 +13,7 @@ commonmark==0.9.1
 coverage==7.14.0
 cryptography==48.0.0
 docutils==0.22.4
-idna==3.14
+idna==3.15
 imagesize==2.0.0
 importlib-metadata==9.0.0
 iniconfig==2.3.0
