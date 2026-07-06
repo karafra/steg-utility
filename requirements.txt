@@ -28,7 +28,7 @@ mockito==2.0.4
 MutPy-Pynguin==0.7.1
 mypy-extensions==1.1.0
 networkx==3.6.1
-numpy==2.5.0
+numpy==2.5.1
 opencv-python==5.0.0.93
 ordered-set==4.1.0
 packaging==26.2
