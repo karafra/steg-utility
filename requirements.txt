@@ -15,7 +15,7 @@ cryptography==50.0.1
 docutils==0.23
 idna==3.19
 imagesize==2.0.1
-importlib-metadata==9.0.0
+importlib-metadata==9.0.1
 iniconfig==2.3.0
 jeepney==0.9.0
 jellyfish==1.2.1
