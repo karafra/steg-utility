@@ -41,7 +41,7 @@ pydot==4.0.1
 Pygments==2.21.0
 pyparsing==3.3.3
 pytest==9.1.1
-pytz==2026.4
+pytz==2026.5
 PyYAML==6.0.3
 readme-renderer==46.0
 requests==2.34.2
