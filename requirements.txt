@@ -40,7 +40,7 @@ pycparser==3.12
 pydot==4.0.1
 Pygments==2.21.0
 pyparsing==3.3.3
-pytest==9.1.1
+pytest==9.2.0
 pytz==2026.5
 PyYAML==6.0.3
 readme-renderer==46.0
