@@ -42,7 +42,7 @@ Pygments==2.21.0
 pyparsing==3.3.3
 pytest==9.2.0
 pytz==2026.6
-PyYAML==6.0.3
+PyYAML==6.0.4
 readme-renderer==46.0
 requests==2.34.2
 requests-toolbelt==1.0.0
